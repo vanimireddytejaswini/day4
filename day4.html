@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz System</title>
+    <link rel="stylesheet" href="day4.css">
+</head>
+<body>
+    <div class="container">
+        <section class="quiz-questions">
+            <h2>Quiz Questions</h2>
+            <form id="quiz-form">
+                <div class="question" id="question1">
+                    <h3>Question 1:</h3>
+                    <p>1) Select the correct option to create an e-mail link?-</p>
+                    <input type="radio" name="question1" value="a . Mail>xxx@yyy.com/mail" id="q1-option1">
+                    <label for="q1-option1">a . Mail>xxx@yyy.com/mail</label><br>
+                    <input type="radio" name="question1" value="b . Mail href=xxx@yyy.com" id="q1-option2">
+                    <label for="q1-option2">b . Mail href="xxx@yyy.com"</label><br>
+                    <input type="radio" name="question1" value="c .  A href=mailto:xxx@yyy.com" id="q1-option3">
+                    <label for="q1-option3">c .  A href=mailto:xxx@yyy.com</label><br>
+                    <input type="radio" name="question1" value="d . None" id="q1-option4">
+                    <label for="q1-option4">d . None </label><br>
+                </div>
+                <hr>
+                <div class="question" id="question2">
+                    <h3>Question 2:</h3>
+                    <p>2) Who is making the Web standards? -</p>
+                    <input type="radio" name="question2" value="a . Mozilla" id="q1-option1">
+                    <label for="q1-option1">a . Mozilla</label><br>
+                    <input type="radio" name="question2" value="b . Microsoft" id="q1-option2">
+                    <label for="q1-option2">b . Microsoft</label><br>
+                    <input type="radio" name="question2" value="c . The World Wide Web Consortium" id="q1-option3">
+                    <label for="q1-option3">c . The World Wide Web Consortium</label><br>
+                    <input type="radio" name="question2" value="d . None" id="q1-option4">
+                    <label for="q1-option4">d . None</label><br>
+                </div>
+                <hr>
+                <div class="question" id="question3">
+                    <h3>Question 3:</h3>
+                    <p>3)  Choose the correct HTML tag for the largest heading</p>
+                    <input type="radio" name="question3" value="a .  Head" id="q1-option1">
+                    <label for="q1-option1">a . Head</label><br>
+                    <input type="radio" name="question3" value="b . H1" id="q1-option2">
+                    <label for="q1-option2">b . H1</label><br>
+                    <input type="radio" name="question3" value="c . H6" id="q1-option3">
+                    <label for="q1-option3">c . H6</label><br>
+                    <input type="radio" name="question3" value="d . Heading" id="q1-option4">
+                    <label for="q1-option4">d . Heading</label><br>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="result-display">
+            <h2>Result Display Area</h2>
+            <p id="result"></p>
+            <div class="container">
+                <u><h1>Quiz Results</h1></u>
+                <div class="result">
+                    <p><b>Question 1:</b> Select the correct option to create an e-mail link?-</p>
+                    <p><b>Your Answer:</b> -------</p>
+                    <p><b>correct Answer:</b> Mail>xxx@yyy.com/mail</p>
+                </div>
+                <hr>
+                <div class="result">
+                    <p><b>Question 2:</b> Who is making the Web standards? -</p>
+                    <p><b>Your Answer:</b> -------</p>
+                    <p><b>correct Answer:</b> The World Wide Web Consortium</p>
+                </div>
+                <hr>
+                <div class="result">
+                    <p><b>Question 3:</b>Choose the correct HTML tag for the largest heading </p>
+                    <p><b>Your Answer:</b> -------</p>
+                    <p><b>correct Answer:</b> H1</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
